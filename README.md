@@ -32,7 +32,7 @@ by melondev
 You can delete the original meshes after merging.
 
 ### Visual Demonstration
-<img src="[drawing.jpg](https://github.com/user-attachments/assets/8152dd7b-ac05-4967-86f7-20aa03479440)" alt="Demo" width="700"/>
+<img src="https://github.com/user-attachments/assets/8152dd7b-ac05-4967-86f7-20aa03479440" alt="Demo" width="700"/>
 
 ## Notes
 
