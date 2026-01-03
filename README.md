@@ -31,6 +31,9 @@ by melondev
 
 You can delete the original meshes after merging.
 
+### Visual Demonstration
+![meshcombiner](https://github.com/user-attachments/assets/8152dd7b-ac05-4967-86f7-20aa03479440)
+
 ## Notes
 
 * Works only with `MeshInstance3D`
