@@ -34,12 +34,15 @@ You can delete the original meshes after merging.
 ### Visual Demonstration
 ![meshcombiner](https://github.com/user-attachments/assets/f3682caa-7271-4bb4-ae9e-f8b4dacc1cac)
 
+another one,
+![meshcombiner2](https://github.com/user-attachments/assets/9c25496d-6fc4-4d74-84d0-a0ea95746bc4)
+
 
 ## Notes
 
 * Works only with `MeshInstance3D`
 * Intended for **static geometry**
-* No animations, skinning, or collisions
+* No animations, skinning, or collisions(you can try to create the collision after combining meshes by pressing mesh > create collision shape in the tool bar)
 
 ## Godot
 
