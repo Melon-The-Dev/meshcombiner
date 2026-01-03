@@ -1,0 +1,139 @@
+[gd_scene load_steps=13 format=3 uid="uid://bx0fj8yclburb"]
+
+[ext_resource type="Texture2D" uid="uid://yjelq31oyy7j" path="res://addons/meshcombiner/assets/combine button.svg" id="1_oo6mj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tdp21"]
+content_margin_left = 4.5
+content_margin_top = 3.75
+content_margin_right = 4.5
+content_margin_bottom = 3.75
+bg_color = Color(0.189, 0.21599999, 0.26099998, 1)
+border_color = Color(0.147, 0.168, 0.203, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+corner_detail = 2
+anti_aliasing = false
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_n5wao"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n5wao"]
+content_margin_left = 4.5
+content_margin_top = 3.75
+content_margin_right = 4.5
+content_margin_bottom = 3.75
+bg_color = Color(1, 1, 1, 0.11)
+border_color = Color(1, 1, 1, 0.05)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+corner_detail = 2
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_os8hb"]
+content_margin_left = 4.5
+content_margin_top = 3.75
+content_margin_right = 4.5
+content_margin_bottom = 3.75
+bg_color = Color(0.12862499, 0.14699998, 0.177625, 1)
+border_color = Color(0.115499996, 0.132, 0.15949999, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+corner_detail = 2
+anti_aliasing = false
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_oo6mj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_70bd8"]
+content_margin_left = 4.5
+content_margin_top = 3.75
+content_margin_right = 4.5
+content_margin_bottom = 3.75
+bg_color = Color(0.12862499, 0.14699998, 0.177625, 1)
+border_color = Color(0.115499996, 0.132, 0.15949999, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+corner_detail = 2
+anti_aliasing = false
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_eoq0t"]
+content_margin_left = 4.5
+content_margin_top = 3.75
+content_margin_right = 4.5
+content_margin_bottom = 3.75
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3a2i1"]
+content_margin_left = 4.5
+content_margin_top = 3.75
+content_margin_right = 4.5
+content_margin_bottom = 3.75
+bg_color = Color(1, 1, 1, 0.11)
+border_color = Color(1, 1, 1, 0.05)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+corner_detail = 2
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_s14rp"]
+content_margin_left = 4.5
+content_margin_top = 3.75
+content_margin_right = 4.5
+content_margin_bottom = 3.75
+bg_color = Color(0.109296, 0.14126399, 0.177744, 0.85)
+border_color = Color(0.115499996, 0.132, 0.15949999, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+corner_detail = 2
+anti_aliasing = false
+
+[sub_resource type="Theme" id="Theme_22yk4"]
+Button/colors/font_color = Color(0.8025, 0.81, 0.8225, 1)
+Button/colors/font_disabled_color = Color(1, 1, 1, 0.35)
+Button/colors/font_focus_color = Color(0.90125, 0.905, 0.91125, 1)
+Button/colors/font_hover_color = Color(0.90125, 0.905, 0.91125, 1)
+Button/colors/font_hover_pressed_color = Color(0.55992496, 0.7755, 0.962125, 1)
+Button/colors/font_outline_color = Color(0, 0, 0, 0)
+Button/colors/font_pressed_color = Color(0.44, 0.73, 0.98, 1)
+Button/colors/icon_disabled_color = Color(1, 1, 1, 0.4)
+Button/colors/icon_focus_color = Color(1.15, 1.15, 1.15, 1)
+Button/colors/icon_hover_color = Color(1.15, 1.15, 1.15, 1)
+Button/colors/icon_hover_pressed_color = Color(0.506, 0.8395, 1.127, 1)
+Button/colors/icon_normal_color = Color(1, 1, 1, 1)
+Button/colors/icon_pressed_color = Color(0.506, 0.8395, 1.127, 1)
+Button/constants/align_to_largest_stylebox = 1
+Button/constants/h_separation = 3
+Button/constants/outline_size = 0
+Button/styles/disabled = SubResource("StyleBoxFlat_tdp21")
+Button/styles/focus = SubResource("StyleBoxEmpty_n5wao")
+Button/styles/hover = SubResource("StyleBoxFlat_n5wao")
+Button/styles/hover_mirrored = null
+Button/styles/hover_pressed = SubResource("StyleBoxFlat_os8hb")
+Button/styles/normal = SubResource("StyleBoxEmpty_oo6mj")
+Button/styles/pressed = SubResource("StyleBoxFlat_70bd8")
+FlatButton/styles/disabled = SubResource("StyleBoxEmpty_eoq0t")
+FlatButton/styles/hover = SubResource("StyleBoxFlat_3a2i1")
+FlatButton/styles/normal = SubResource("StyleBoxEmpty_eoq0t")
+FlatButton/styles/pressed = SubResource("StyleBoxFlat_s14rp")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n5wao"]
+atlas = ExtResource("1_oo6mj")
+region = Rect2(14, 12, 100, 105)
+
+[node name="Button" type="Button"]
+offset_right = 61.0
+offset_bottom = 20.1
+theme = SubResource("Theme_22yk4")
+theme_override_constants/icon_max_width = 16
+theme_override_font_sizes/font_size = 10
+text = "Combine Meshes"
+icon = SubResource("AtlasTexture_n5wao")
