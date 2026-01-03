@@ -34,7 +34,8 @@ You can delete the original meshes after merging.
 ### Visual Demonstration
 ![meshcombiner](https://github.com/user-attachments/assets/f3682caa-7271-4bb4-ae9e-f8b4dacc1cac)
 
-another one,
+another one
+
 ![meshcombiner2](https://github.com/user-attachments/assets/9c25496d-6fc4-4d74-84d0-a0ea95746bc4)
 
 
